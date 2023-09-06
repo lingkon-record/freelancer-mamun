@@ -3,7 +3,7 @@ import { AiFillStar } from "react-icons/ai";
 const data = [
   {
     img: "/services/01.jpg",
-    title: "Mamun Premium Record",
+    title: "ওয়াজ মাহফিল",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
@@ -14,7 +14,7 @@ const data = [
   },
   {
     img: "/services/02.jpg",
-    title: "Mamun Premium Record",
+    title: "বিজ্ঞাপন ",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
@@ -25,7 +25,7 @@ const data = [
   },
   {
     img: "/services/06.jpg",
-     title: "Mamun Premium Record",
+     title: " A to Z রেকডিং",
      
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -38,7 +38,7 @@ const data = [
 
   {
     img: "/services/05.jpg",
-     title: "Mamun Premium Record",
+     title: "বিজ্ঞাপন ",
      
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -49,8 +49,8 @@ const data = [
     category: "sneakers",
   },
   {
-    img: "/services/01.jpg",
-     title: "Mamun Premium Record",
+    img: "/services/09.jpg",
+     title: "মাইক ভাড়া",
      
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -61,8 +61,8 @@ const data = [
     category: "Podcast",
   },
   {
-    img: "/services/08.jpg",
-     title: "Mamun Premium Record",
+    img: "/services/07.jpg",
+     title: "আবৃত্তি",
      
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -71,283 +71,7 @@ const data = [
     company: "Vans",
     color: "green",
     category: "Auideo",
-  },
-  {
-    img: "/services/03.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "50",
-    company: "Adidas",
-    color: "black",
-    category: "flats",
-  },
-
-  {
-    img: "/services/01.jpg",
-     title: "Mamun Premium Record",
-     star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "50",
-    company: "Vans",
-    color: "white",
-    category: "flats",
-  },
-
-  {
-    img: "/services/01.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "200",
-    company: "Nike",
-    color: "green",
-    category: "sneakers",
-  },
-
-  {
-    img: "/services/01.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "200",
-    company: "Adidas",
-    color: "blue",
-    category: "sneakers",
-  },
-
-  {
-    img: "/services/03.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "150",
-    company: "Puma",
-    color: "green",
-    category: "sneakers",
-  },
-  {
-    img: "/services/02.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "150",
-    company: "Puma",
-    color: "red",
-    category: "sneakers",
-  },
-  {
-    img: "/services/01.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "150",
-    company: "Puma",
-    color: "black",
-    category: "sneakers",
-  },
-  {
-    img: "/services/03.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "150",
-    company: "Puma",
-    color: "white",
-    category: "sneakers",
-  },
-  {
-    img: "/services/04.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "150",
-    company: "Puma",
-    color: "black",
-    category: "sneakers",
-  },
-
-  {
-    img: "/services/03.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "100",
-    company: "Puma",
-    color: "green",
-    category: "sneakers",
-  },
-  {
-    img: "/services/05.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "100",
-    company: "Vans",
-    color: "red",
-    category: "flats",
-  },
-  {
-    img: "/services/01.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "100",
-    company: "Vans",
-    color: "white",
-    category: "sandals",
-  },
-  {
-    img: "/services/06.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "100",
-    company: "Vans",
-    color: "blue",
-    category: "sandals",
-  },
-  {
-    img: "/services/01.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "50",
-    company: "Nike",
-    color: "black",
-    category: "sandals",
-  },
-  {
-    img: "/services/07.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "50",
-    company: "Vans",
-    color: "black",
-    category: "heels",
-  },
-  {
-    img: "/services/01.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "100",
-    company: "puma",
-    color: "black",
-    category: "heels",
-  },
-  {
-    img: "/services/08.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "150",
-    company: "Nike",
-    color: "red",
-    category: "heels",
-  },
-  {
-    img: "/services/01.jpg",
-     title: "Mamun Premium Record",
-     
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "200",
-    company: "Nike",
-    color: "red",
-    category: "sneakers",
-  },
-
-  {
-    title: "Low Mid Block Heels",
-    img: "/services/01.jpg",
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "200",
-    company: "Nike",
-    color: "black",
-    category: "heels",
-  },
-  {
-    title: "Chunky High Heel",
-    img: "/services/09.jpg",
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "50",
-    company: "Adidas",
-    color: "black",
-    category: "heels",
-  },
-  {
-    title: "Amore Fashion Stilettos",
-    img: "/services/01.jpg",
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "150",
-    company: "Adidas",
-    color: "white",
-    category: "heels",
-  },
-  {
-    title: "Bridal Sandals Glitter",
-    img: "/services/05.jpg",
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "50",
-    company: "Adidas",
-    color: "black",
-    category: "heels",
-  },
-  {
-    title: "Wedding Prom Bridal",
-    img: "/services/01.jpg",
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "50",
-    company: "Adidas",
-    color: "black",
-    category: "flats",
-  },
+  }
 ];
 
 export default data;

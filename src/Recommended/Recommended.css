@@ -1,6 +1,36 @@
-.recommended-flex {
+
+.recommended-flex button {
   display: flex;
   margin-left: 20rem;
+  /* visibility: hidden; */
+  display: none;
+
+  
+}
+
+@media screen and (min-width: 480px) {
+  .recommended-flex button {
+    margin-left: 20rem;
+   
+    display: block;
+  }
+}
+
+.location {
+  margin-left: 20rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 10px;
+  
+}
+
+/* 
+.location span {
+  gap: 10px
+
+} */
+.recommended-flex Button:hover {
+  background-color: yellow;
 }
 
 .recommended-title {
